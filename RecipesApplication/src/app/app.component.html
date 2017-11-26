@@ -1,0 +1,71 @@
+﻿<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<h1>Recipes application</h1>
+
+<br />
+<h2>Login</h2>
+<div class="panel">
+  <form class="Login">
+    <div class="form-group">
+      <label>Username:</label><input class="form-control" type="text" ng-model="username" />
+      <label>Password:</label><input class="form-control text-muted" type="password" ng-model="password" />
+      <input ng-click="Login()" type="submit" class="btn btn-primary login" value="Login" /><button class="btn btn-primary signup">Sign up</button>
+    </div>
+  </form>
+</div>
+<form class="SignUp" hidden>
+  <label>Name:</label><input type="text" />
+  <label>Surname:</label><input type="password" />
+  <label>Username:</label><input type="text" />
+  <label>Password:</label><input type="password" />
+  <input type="submit" value="Login" /><button>Sign up</button>
+</form>
+<br />
+<h2>All recipes</h2>
+<button>Add new recipe</button>
+<ul class="list-group">
+  <li class="list-group-item" *ngFor="let value of apiValues"><a>{{value}}</a><button class="recipeButton">View</button></li>
+</ul>
+<!--div class="recipeView" hidden="hidden">
+    <form>
+      <label>Title:</label><input type="text" />
+      
+      <label>Username:</label><input type="text" />
+      <label>Notes:</label><input type="text" />
+      <div class="Ingredients">
+        <li *ngFor="">
+          <label>Description:</label><input type="text" />
+          <label>Amount:</label><input type="text" />
+        </li>
+      </div>
+      <div class="Method">
+        <li *ngFor="">
+          <label>Step:</label><input type="text" />
+          <label>Method:</label><input type="text" />
+        </li>
+      </div>
+    </form>
+</!--div>
+<div class="recipeAdd" hidden="hidden">
+  <form>
+    <label>Title:</label><input type="text" />
+
+    <label>Username:</label><input type="text" />
+    <label>Notes:</label><input type="text" />
+    <div class="Ingredients">
+      <li>
+        <label>Description:</label><input type="text" />
+        <label>Amount:</label><input type="text" />
+      </li>
+    </div>
+    <div class="Method">
+      <li *ngFor="">
+        <label>Step:</label><input type="text" />
+        <label>Method:</label><input type="text" />
+      </li>
+    </div>
+  </form>
+</div-->

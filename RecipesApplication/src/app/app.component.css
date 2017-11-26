@@ -1,0 +1,24 @@
+﻿.panel {
+  position: relative;
+  border: 1px solid #C0C0C0;
+  border-radius: 3px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+label, input, button, h1, h2, h3 {
+  position:relative;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.recipeButton,.signup{
+  position:relative;
+  margin-top: 10px;
+}
+
+.recipeButton{
+  position:relative;
+  right:0px;
+}

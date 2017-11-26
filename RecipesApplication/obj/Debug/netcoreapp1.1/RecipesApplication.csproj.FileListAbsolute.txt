@@ -1,0 +1,8 @@
+C:\Users\ndanji.mukumbe\Documents\Visual Studio 2017\Projects\RecipesApplication\RecipesApplication\bin\Debug\netcoreapp1.1\RecipesApplication.deps.json
+C:\Users\ndanji.mukumbe\Documents\Visual Studio 2017\Projects\RecipesApplication\RecipesApplication\bin\Debug\netcoreapp1.1\RecipesApplication.runtimeconfig.json
+C:\Users\ndanji.mukumbe\Documents\Visual Studio 2017\Projects\RecipesApplication\RecipesApplication\bin\Debug\netcoreapp1.1\RecipesApplication.runtimeconfig.dev.json
+C:\Users\ndanji.mukumbe\Documents\Visual Studio 2017\Projects\RecipesApplication\RecipesApplication\bin\Debug\netcoreapp1.1\RecipesApplication.dll
+C:\Users\ndanji.mukumbe\Documents\Visual Studio 2017\Projects\RecipesApplication\RecipesApplication\bin\Debug\netcoreapp1.1\RecipesApplication.pdb
+C:\Users\ndanji.mukumbe\Documents\Visual Studio 2017\Projects\RecipesApplication\RecipesApplication\obj\Debug\netcoreapp1.1\RecipesApplication.AssemblyInfo.cs
+C:\Users\ndanji.mukumbe\Documents\Visual Studio 2017\Projects\RecipesApplication\RecipesApplication\obj\Debug\netcoreapp1.1\RecipesApplication.dll
+C:\Users\ndanji.mukumbe\Documents\Visual Studio 2017\Projects\RecipesApplication\RecipesApplication\obj\Debug\netcoreapp1.1\RecipesApplication.pdb
